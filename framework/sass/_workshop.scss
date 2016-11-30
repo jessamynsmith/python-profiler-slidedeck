@@ -1,0 +1,24 @@
+/* Styles specific to this workshop
+------------------------------------*/
+.slide.intro {
+  background: linear-gradient(rgba($gray-dark, 0.9),
+              rgba($gray-dark, 0.9)),
+              url(../img/workshop/cprofile_command_line.png) no-repeat;
+  background-size: cover;
+}
+
+.symbol {
+  font-size: 300%;
+}
+
+.positive {
+  color: green;
+}
+
+.neutral {
+  color: darkgoldenrod;
+}
+
+.negative {
+  color: darkred;
+}

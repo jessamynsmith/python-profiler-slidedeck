@@ -1,0 +1,49 @@
+//---------------
+// VARIABLES
+//---------------
+
+// Colours
+//---------------
+$dark:                  #000094;
+$black:                 #000000;
+$gray-dark:             #1a1a1a;
+$gray:                  #404040;
+$gray-light:            #cccccc;
+$white:                 #ffffff;
+
+
+// Typography
+//---------------
+// Font families
+$primary-font:          'Helvetica Neue', sans-serif;
+$secondary-font:        'Helvetica Neue', sans-serif;
+$heading-font:          $primary-font;
+$base-font:             $secondary-font;
+
+$font-size-base:        3.2rem;
+$font-size-sm:          $font-size-base * 0.9; // 90%
+$font-size-xsm:         $font-size-base * 0.75;
+$font-size-footnote:    $font-size-base * 0.5;
+$font-size-heading:     4.0rem;
+$font-size-heading-lg:  7.5rem;
+$font-size-heading-sm:  $font-size-base;
+$line-height:           1.4;
+
+
+//---------------
+// MIXINS
+//---------------
+@mixin list-reset {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/* http://css-tricks.com/snippets/css/clear-fix/ */
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }  
+}
